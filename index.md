@@ -1,10 +1,10 @@
-# ContentMint AppEngine API Documentation
+# Appmint AppEngine API Documentation
 
-Welcome to the ContentMint AppEngine API documentation. This index provides a comprehensive overview of all available API endpoints, organized by module.
+Welcome to the Appmint AppEngine API documentation. This index provides a comprehensive overview of all available API endpoints, organized by module.
 
 ## Authentication
 
-Before using most API endpoints, you need to authenticate. The ContentMint AppEngine API supports two authentication methods:
+Before using most API endpoints, you need to authenticate. The Appmint AppEngine API supports two authentication methods:
 
 1. **[User Authentication](users/README.md#authentication)** - For human users interacting with the API through a client application
 2. **[System Authentication](users/README.md#app-registration-and-system-authentication)** - For systems and applications that need to interact with the API programmatically
@@ -75,7 +75,7 @@ For detailed information about authentication, including how to obtain and use a
 
 ### Data Models
 
-The ContentMint AppEngine API uses a variety of data models to represent entities and their relationships. For detailed information about these models, see the [Data Models](models.md) documentation.
+The Appmint AppEngine API uses a variety of data models to represent entities and their relationships. For detailed information about these models, see the [Data Models](models.md) documentation.
 
 ### Authentication and Authorization
 
@@ -231,7 +231,7 @@ API errors are returned with appropriate HTTP status codes and error messages. T
     }
   ],
   "requestId": "req_123456",
-  "documentation": "https://docs.contentmint.com/errors/required_field"
+  "documentation": "https://docs.Appmint.com/errors/required_field"
 }
 ```
 
@@ -273,7 +273,7 @@ API errors are returned with appropriate HTTP status codes and error messages. T
 
 ## Getting Started
 
-To get started with the ContentMint AppEngine API:
+To get started with the Appmint AppEngine API:
 
 1. Review the [Authentication section](README.md#authentication) to understand how to authenticate your requests
 2. Explore the specific API modules that interest you
@@ -282,7 +282,7 @@ To get started with the ContentMint AppEngine API:
 
 ## API Versioning
 
-The ContentMint AppEngine API uses versioning to ensure backward compatibility. The current version is v1, which is the default version for all endpoints.
+The Appmint AppEngine API uses versioning to ensure backward compatibility. The current version is v1, which is the default version for all endpoints.
 
 ## Rate Limiting
 
@@ -290,4 +290,4 @@ The API implements rate limiting to prevent abuse. The rate limits vary by endpo
 
 ## Support
 
-If you encounter any issues or have questions about the API, please contact support at <support@contentmint.com>.
+If you encounter any issues or have questions about the API, please contact support at <support@Appmint.com>.

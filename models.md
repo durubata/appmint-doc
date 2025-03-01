@@ -1,6 +1,6 @@
-# ContentMint AppEngine Data Models
+# Appmint AppEngine Data Models
 
-This document provides an overview of the data models used in the ContentMint AppEngine API. These models represent the structure of the data that is sent to and received from the API endpoints.
+This document provides an overview of the data models used in the Appmint AppEngine API. These models represent the structure of the data that is sent to and received from the API endpoints.
 
 ## Base Models
 
@@ -953,7 +953,7 @@ enum RoleType {
 
 ## Relationships
 
-The models in the ContentMint AppEngine API are related to each other in various ways. Here are some of the key relationships:
+The models in the Appmint AppEngine API are related to each other in various ways. Here are some of the key relationships:
 
 - **User** has many **Permissions**
 - **User** belongs to many **Groups**
@@ -980,7 +980,7 @@ The models in the ContentMint AppEngine API are related to each other in various
 
 ## Data Validation
 
-The ContentMint AppEngine API validates data according to the model definitions. Here are some common validation rules:
+The Appmint AppEngine API validates data according to the model definitions. Here are some common validation rules:
 
 - **Required fields**: Fields marked as required must be provided
 - **Type validation**: Fields must match the specified type

@@ -636,7 +636,7 @@ Updates a customer's profile.
 
 ## App Registration and System Authentication
 
-The App Registration endpoints allow you to register external applications and systems that need to interact with the ContentMint AppEngine API programmatically. This is particularly useful for integrations, automated systems, and third-party applications.
+The App Registration endpoints allow you to register external applications and systems that need to interact with the Appmint AppEngine API programmatically. This is particularly useful for integrations, automated systems, and third-party applications.
 
 ### Register App
 
@@ -826,7 +826,7 @@ The App Registration endpoints allow you to register external applications and s
 
 ### System Authentication Flow
 
-To authenticate a system or application with the ContentMint AppEngine API:
+To authenticate a system or application with the Appmint AppEngine API:
 
 1. Register your application using the `/app/register` endpoint to obtain your `appId`, `appKey`, and `appSecret`
 2. Store these credentials securely in your application's environment variables or secure configuration
@@ -844,7 +844,7 @@ To authenticate a system or application with the ContentMint AppEngine API:
 
 ```javascript
 async function getAccessToken() {
-  const response = await fetch('https://your-instance.contentmint.com/validate-app-key', {
+  const response = await fetch('https://your-instance.Appmint.com/validate-app-key', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -873,7 +873,7 @@ async function getAccessToken() {
 async function callProtectedApi(endpoint) {
   const { accessToken } = await getAccessToken();
   
-  const response = await fetch(`https://your-instance.contentmint.com${endpoint}`, {
+  const response = await fetch(`https://your-instance.Appmint.com${endpoint}`, {
     headers: {
       'Authorization': `Bearer ${accessToken}`,
       'orgid': 'your-organization-id'

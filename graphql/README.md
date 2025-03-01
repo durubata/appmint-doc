@@ -1,6 +1,6 @@
 # GraphQL API
 
-The ContentMint AppEngine provides a GraphQL API that allows you to query and mutate data using GraphQL syntax.
+The Appmint AppEngine provides a GraphQL API that allows you to query and mutate data using GraphQL syntax.
 
 ## Table of Contents
 

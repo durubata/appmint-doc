@@ -176,7 +176,7 @@ The Connect API supports integration with various vendors and services, includin
 
 ### 1. Configure Integration
 
-Before using the Connect API, you need to configure the integration in the ContentMint AppEngine:
+Before using the Connect API, you need to configure the integration in the Appmint AppEngine:
 
 1. Go to the Integrations section in the admin panel
 2. Select the vendor you want to integrate with
@@ -190,7 +190,7 @@ For webhook-based integrations:
 1. Configure the webhook URL in the vendor's dashboard:
 
    ```
-   https://your-instance.contentmint.com/connect/webhook/{vendor}/{serviceId}
+   https://your-instance.Appmint.com/connect/webhook/{vendor}/{serviceId}
    ```
 
 2. Select the events you want to receive
@@ -203,7 +203,7 @@ For OAuth-based integrations:
 1. Configure the OAuth callback URL in the vendor's dashboard:
 
    ```
-   https://your-instance.contentmint.com/connect/oauth2callback/{vendor}
+   https://your-instance.Appmint.com/connect/oauth2callback/{vendor}
    ```
 
 2. Implement the authentication flow in your application
