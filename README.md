@@ -1,10 +1,10 @@
 # Appmint AppEngine API Documentation
 
-Welcome to the ContentMint AppEngine API documentation. This comprehensive guide provides detailed information about all available API endpoints, data models, and usage examples.
+Welcome to the Appmint AppEngine API documentation. This comprehensive guide provides detailed information about all available API endpoints, data models, and usage examples.
 
 ## Getting Started
 
-To get started with the ContentMint AppEngine API, we recommend the following:
+To get started with the Appmint AppEngine API, we recommend the following:
 
 1. Start with the [main documentation index](index.md) for an overview of all available resources
 2. Review the [data models](models.md) to understand the structure of the data
@@ -44,7 +44,7 @@ The documentation is organized into the following sections:
 
 ## Authentication
 
-Most API endpoints require authentication. The ContentMint AppEngine API uses JWT (JSON Web Token) for authentication. There are two main ways to authenticate with the API:
+Most API endpoints require authentication. The Appmint AppEngine API uses JWT (JSON Web Token) for authentication. There are two main ways to authenticate with the API:
 
 ### 1. User Authentication
 
@@ -198,10 +198,10 @@ Some endpoints are marked with `@PublicRoute()` and don't require authentication
 
 ## Making API Requests
 
-All API requests should be made to the base URL of your ContentMint AppEngine instance. For example:
+All API requests should be made to the base URL of your Appmint AppEngine instance. For example:
 
 ```
-https://your-instance.contentmint.com/api/
+https://your-instance.Appmint.com/api/
 ```
 
 ### Request Format
