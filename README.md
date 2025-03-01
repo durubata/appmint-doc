@@ -1,4 +1,4 @@
-# ContentMint AppEngine API Documentation
+# Appmint AppEngine API Documentation
 
 Welcome to the ContentMint AppEngine API documentation. This comprehensive guide provides detailed information about all available API endpoints, data models, and usage examples.
 
